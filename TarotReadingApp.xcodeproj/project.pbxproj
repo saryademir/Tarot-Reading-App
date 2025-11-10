@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17EB024A2D578DBB00A824DC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 17EB02492D578DBB00A824DC /* FirebaseAnalytics */; };
+		17EB024C2D578DBB00A824DC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 17EB024B2D578DBB00A824DC /* FirebaseAuth */; };
+		17EB024E2D578DBB00A824DC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 17EB024D2D578DBB00A824DC /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17EB02262D578D3400A824DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17EB020D2D578D3200A824DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17EB02142D578D3200A824DC;
+			remoteInfo = TarotReadingApp;
+		};
+		17EB02302D578D3400A824DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17EB020D2D578D3200A824DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17EB02142D578D3200A824DC;
+			remoteInfo = TarotReadingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17EB02152D578D3200A824DC /* TarotReadingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TarotReadingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EB02252D578D3400A824DC /* TarotReadingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarotReadingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EB022F2D578D3400A824DC /* TarotReadingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarotReadingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		17EB02462D578D8500A824DC /* Exceptions for "TarotReadingApp" folder in "TarotReadingAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"archive (4)/card-back.jpg",
+				"archive (4)/cards/c01.jpg",
+				"archive (4)/cards/c02.jpg",
+				"archive (4)/cards/c03.jpg",
+				"archive (4)/cards/c04.jpg",
+				"archive (4)/cards/c05.jpg",
+				"archive (4)/cards/c06.jpg",
+				"archive (4)/cards/c07.jpg",
+				"archive (4)/cards/c08.jpg",
+				"archive (4)/cards/c09.jpg",
+				"archive (4)/cards/c10.jpg",
+				"archive (4)/cards/c11.jpg",
+				"archive (4)/cards/c12.jpg",
+				"archive (4)/cards/c13.jpg",
+				"archive (4)/cards/c14.jpg",
+				"archive (4)/cards/m00.jpg",
+				"archive (4)/cards/m01.jpg",
+				"archive (4)/cards/m02.jpg",
+				"archive (4)/cards/m03.jpg",
+				"archive (4)/cards/m04.jpg",
+				"archive (4)/cards/m05.jpg",
+				"archive (4)/cards/m06.jpg",
+				"archive (4)/cards/m07.jpg",
+				"archive (4)/cards/m08.jpg",
+				"archive (4)/cards/m09.jpg",
+				"archive (4)/cards/m10.jpg",
+				"archive (4)/cards/m11.jpg",
+				"archive (4)/cards/m12.jpg",
+				"archive (4)/cards/m13.jpg",
+				"archive (4)/cards/m14.jpg",
+				"archive (4)/cards/m15.jpg",
+				"archive (4)/cards/m16.jpg",
+				"archive (4)/cards/m17.jpg",
+				"archive (4)/cards/m18.jpg",
+				"archive (4)/cards/m19.jpg",
+				"archive (4)/cards/m20.jpg",
+				"archive (4)/cards/m21.jpg",
+				"archive (4)/cards/p01.jpg",
+				"archive (4)/cards/p02.jpg",
+				"archive (4)/cards/p03.jpg",
+				"archive (4)/cards/p04.jpg",
+				"archive (4)/cards/p05.jpg",
+				"archive (4)/cards/p06.jpg",
+				"archive (4)/cards/p07.jpg",
+				"archive (4)/cards/p08.jpg",
+				"archive (4)/cards/p09.jpg",
+				"archive (4)/cards/p10.jpg",
+				"archive (4)/cards/p11.jpg",
+				"archive (4)/cards/p12.jpg",
+				"archive (4)/cards/p13.jpg",
+				"archive (4)/cards/p14.jpg",
+				"archive (4)/cards/s01.jpg",
+				"archive (4)/cards/s02.jpg",
+				"archive (4)/cards/s03.jpg",
+				"archive (4)/cards/s04.jpg",
+				"archive (4)/cards/s05.jpg",
+				"archive (4)/cards/s06.jpg",
+				"archive (4)/cards/s07.jpg",
+				"archive (4)/cards/s08.jpg",
+				"archive (4)/cards/s09.jpg",
+				"archive (4)/cards/s10.jpg",
+				"archive (4)/cards/s11.jpg",
+				"archive (4)/cards/s12.jpg",
+				"archive (4)/cards/s13.jpg",
+				"archive (4)/cards/s14.jpg",
+				"archive (4)/cards/w01.jpg",
+				"archive (4)/cards/w02.jpg",
+				"archive (4)/cards/w03.jpg",
+				"archive (4)/cards/w04.jpg",
+				"archive (4)/cards/w05.jpg",
+				"archive (4)/cards/w06.jpg",
+				"archive (4)/cards/w07.jpg",
+				"archive (4)/cards/w08.jpg",
+				"archive (4)/cards/w09.jpg",
+				"archive (4)/cards/w10.jpg",
+				"archive (4)/cards/w11.jpg",
+				"archive (4)/cards/w12.jpg",
+				"archive (4)/cards/w13.jpg",
+				"archive (4)/cards/w14.jpg",
+				"archive (4)/tarot-images.json",
+				DailyTarotView.swift,
+				"GoogleService-Info.plist",
+				ProfileView.swift,
+				UserInfo.swift,
+			);
+			target = 17EB02242D578D3400A824DC /* TarotReadingAppTests */;
+		};
+		17EB02472D578D8500A824DC /* Exceptions for "TarotReadingApp" folder in "TarotReadingAppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"archive (4)/card-back.jpg",
+				"archive (4)/cards/c01.jpg",
+				"archive (4)/cards/c02.jpg",
+				"archive (4)/cards/c03.jpg",
+				"archive (4)/cards/c04.jpg",
+				"archive (4)/cards/c05.jpg",
+				"archive (4)/cards/c06.jpg",
+				"archive (4)/cards/c07.jpg",
+				"archive (4)/cards/c08.jpg",
+				"archive (4)/cards/c09.jpg",
+				"archive (4)/cards/c10.jpg",
+				"archive (4)/cards/c11.jpg",
+				"archive (4)/cards/c12.jpg",
+				"archive (4)/cards/c13.jpg",
+				"archive (4)/cards/c14.jpg",
+				"archive (4)/cards/m00.jpg",
+				"archive (4)/cards/m01.jpg",
+				"archive (4)/cards/m02.jpg",
+				"archive (4)/cards/m03.jpg",
+				"archive (4)/cards/m04.jpg",
+				"archive (4)/cards/m05.jpg",
+				"archive (4)/cards/m06.jpg",
+				"archive (4)/cards/m07.jpg",
+				"archive (4)/cards/m08.jpg",
+				"archive (4)/cards/m09.jpg",
+				"archive (4)/cards/m10.jpg",
+				"archive (4)/cards/m11.jpg",
+				"archive (4)/cards/m12.jpg",
+				"archive (4)/cards/m13.jpg",
+				"archive (4)/cards/m14.jpg",
+				"archive (4)/cards/m15.jpg",
+				"archive (4)/cards/m16.jpg",
+				"archive (4)/cards/m17.jpg",
+				"archive (4)/cards/m18.jpg",
+				"archive (4)/cards/m19.jpg",
+				"archive (4)/cards/m20.jpg",
+				"archive (4)/cards/m21.jpg",
+				"archive (4)/cards/p01.jpg",
+				"archive (4)/cards/p02.jpg",
+				"archive (4)/cards/p03.jpg",
+				"archive (4)/cards/p04.jpg",
+				"archive (4)/cards/p05.jpg",
+				"archive (4)/cards/p06.jpg",
+				"archive (4)/cards/p07.jpg",
+				"archive (4)/cards/p08.jpg",
+				"archive (4)/cards/p09.jpg",
+				"archive (4)/cards/p10.jpg",
+				"archive (4)/cards/p11.jpg",
+				"archive (4)/cards/p12.jpg",
+				"archive (4)/cards/p13.jpg",
+				"archive (4)/cards/p14.jpg",
+				"archive (4)/cards/s01.jpg",
+				"archive (4)/cards/s02.jpg",
+				"archive (4)/cards/s03.jpg",
+				"archive (4)/cards/s04.jpg",
+				"archive (4)/cards/s05.jpg",
+				"archive (4)/cards/s06.jpg",
+				"archive (4)/cards/s07.jpg",
+				"archive (4)/cards/s08.jpg",
+				"archive (4)/cards/s09.jpg",
+				"archive (4)/cards/s10.jpg",
+				"archive (4)/cards/s11.jpg",
+				"archive (4)/cards/s12.jpg",
+				"archive (4)/cards/s13.jpg",
+				"archive (4)/cards/s14.jpg",
+				"archive (4)/cards/w01.jpg",
+				"archive (4)/cards/w02.jpg",
+				"archive (4)/cards/w03.jpg",
+				"archive (4)/cards/w04.jpg",
+				"archive (4)/cards/w05.jpg",
+				"archive (4)/cards/w06.jpg",
+				"archive (4)/cards/w07.jpg",
+				"archive (4)/cards/w08.jpg",
+				"archive (4)/cards/w09.jpg",
+				"archive (4)/cards/w10.jpg",
+				"archive (4)/cards/w11.jpg",
+				"archive (4)/cards/w12.jpg",
+				"archive (4)/cards/w13.jpg",
+				"archive (4)/cards/w14.jpg",
+				"archive (4)/tarot-images.json",
+				DailyTarotView.swift,
+				"GoogleService-Info.plist",
+				ProfileView.swift,
+				UserInfo.swift,
+			);
+			target = 17EB022E2D578D3400A824DC /* TarotReadingAppUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		17EB02172D578D3200A824DC /* TarotReadingApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				17EB02462D578D8500A824DC /* Exceptions for "TarotReadingApp" folder in "TarotReadingAppTests" target */,
+				17EB02472D578D8500A824DC /* Exceptions for "TarotReadingApp" folder in "TarotReadingAppUITests" target */,
+			);
+			path = TarotReadingApp;
+			sourceTree = "<group>";
+		};
+		17EB02282D578D3400A824DC /* TarotReadingAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TarotReadingAppTests;
+			sourceTree = "<group>";
+		};
+		17EB02322D578D3400A824DC /* TarotReadingAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TarotReadingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17EB02122D578D3200A824DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EB024A2D578DBB00A824DC /* FirebaseAnalytics in Frameworks */,
+				17EB024C2D578DBB00A824DC /* FirebaseAuth in Frameworks */,
+				17EB024E2D578DBB00A824DC /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EB02222D578D3400A824DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EB022C2D578D3400A824DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17EB020C2D578D3200A824DC = {
+			isa = PBXGroup;
+			children = (
+				17EB02172D578D3200A824DC /* TarotReadingApp */,
+				17EB02282D578D3400A824DC /* TarotReadingAppTests */,
+				17EB02322D578D3400A824DC /* TarotReadingAppUITests */,
+				17EB02162D578D3200A824DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17EB02162D578D3200A824DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17EB02152D578D3200A824DC /* TarotReadingApp.app */,
+				17EB02252D578D3400A824DC /* TarotReadingAppTests.xctest */,
+				17EB022F2D578D3400A824DC /* TarotReadingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17EB02142D578D3200A824DC /* TarotReadingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EB02392D578D3400A824DC /* Build configuration list for PBXNativeTarget "TarotReadingApp" */;
+			buildPhases = (
+				17EB02112D578D3200A824DC /* Sources */,
+				17EB02122D578D3200A824DC /* Frameworks */,
+				17EB02132D578D3200A824DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				17EB02172D578D3200A824DC /* TarotReadingApp */,
+			);
+			name = TarotReadingApp;
+			packageProductDependencies = (
+				17EB02492D578DBB00A824DC /* FirebaseAnalytics */,
+				17EB024B2D578DBB00A824DC /* FirebaseAuth */,
+				17EB024D2D578DBB00A824DC /* FirebaseFirestore */,
+			);
+			productName = TarotReadingApp;
+			productReference = 17EB02152D578D3200A824DC /* TarotReadingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17EB02242D578D3400A824DC /* TarotReadingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EB023C2D578D3400A824DC /* Build configuration list for PBXNativeTarget "TarotReadingAppTests" */;
+			buildPhases = (
+				17EB02212D578D3400A824DC /* Sources */,
+				17EB02222D578D3400A824DC /* Frameworks */,
+				17EB02232D578D3400A824DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17EB02272D578D3400A824DC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				17EB02282D578D3400A824DC /* TarotReadingAppTests */,
+			);
+			name = TarotReadingAppTests;
+			packageProductDependencies = (
+			);
+			productName = TarotReadingAppTests;
+			productReference = 17EB02252D578D3400A824DC /* TarotReadingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17EB022E2D578D3400A824DC /* TarotReadingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EB023F2D578D3400A824DC /* Build configuration list for PBXNativeTarget "TarotReadingAppUITests" */;
+			buildPhases = (
+				17EB022B2D578D3400A824DC /* Sources */,
+				17EB022C2D578D3400A824DC /* Frameworks */,
+				17EB022D2D578D3400A824DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17EB02312D578D3400A824DC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				17EB02322D578D3400A824DC /* TarotReadingAppUITests */,
+			);
+			name = TarotReadingAppUITests;
+			packageProductDependencies = (
+			);
+			productName = TarotReadingAppUITests;
+			productReference = 17EB022F2D578D3400A824DC /* TarotReadingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17EB020D2D578D3200A824DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					17EB02142D578D3200A824DC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					17EB02242D578D3400A824DC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 17EB02142D578D3200A824DC;
+					};
+					17EB022E2D578D3400A824DC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 17EB02142D578D3200A824DC;
+					};
+				};
+			};
+			buildConfigurationList = 17EB02102D578D3200A824DC /* Build configuration list for PBXProject "TarotReadingApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17EB020C2D578D3200A824DC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				17EB02482D578DBB00A824DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 17EB02162D578D3200A824DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17EB02142D578D3200A824DC /* TarotReadingApp */,
+				17EB02242D578D3400A824DC /* TarotReadingAppTests */,
+				17EB022E2D578D3400A824DC /* TarotReadingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17EB02132D578D3200A824DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EB02232D578D3400A824DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EB022D2D578D3400A824DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17EB02112D578D3200A824DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EB02212D578D3400A824DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EB022B2D578D3400A824DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17EB02272D578D3400A824DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17EB02142D578D3200A824DC /* TarotReadingApp */;
+			targetProxy = 17EB02262D578D3400A824DC /* PBXContainerItemProxy */;
+		};
+		17EB02312D578D3400A824DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17EB02142D578D3200A824DC /* TarotReadingApp */;
+			targetProxy = 17EB02302D578D3400A824DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17EB02372D578D3400A824DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17EB02382D578D3400A824DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17EB023A2D578D3400A824DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TarotReadingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = DTQAM48LZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saryademir.app.TarotReadingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17EB023B2D578D3400A824DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TarotReadingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = DTQAM48LZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saryademir.app.TarotReadingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17EB023D2D578D3400A824DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTQAM48LZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saryademir.app.TarotReadingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TarotReadingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TarotReadingApp";
+			};
+			name = Debug;
+		};
+		17EB023E2D578D3400A824DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTQAM48LZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saryademir.app.TarotReadingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TarotReadingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TarotReadingApp";
+			};
+			name = Release;
+		};
+		17EB02402D578D3400A824DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTQAM48LZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saryademir.app.TarotReadingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TarotReadingApp;
+			};
+			name = Debug;
+		};
+		17EB02412D578D3400A824DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTQAM48LZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saryademir.app.TarotReadingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TarotReadingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17EB02102D578D3200A824DC /* Build configuration list for PBXProject "TarotReadingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EB02372D578D3400A824DC /* Debug */,
+				17EB02382D578D3400A824DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EB02392D578D3400A824DC /* Build configuration list for PBXNativeTarget "TarotReadingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EB023A2D578D3400A824DC /* Debug */,
+				17EB023B2D578D3400A824DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EB023C2D578D3400A824DC /* Build configuration list for PBXNativeTarget "TarotReadingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EB023D2D578D3400A824DC /* Debug */,
+				17EB023E2D578D3400A824DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EB023F2D578D3400A824DC /* Build configuration list for PBXNativeTarget "TarotReadingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EB02402D578D3400A824DC /* Debug */,
+				17EB02412D578D3400A824DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17EB02482D578DBB00A824DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17EB02492D578DBB00A824DC /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17EB02482D578DBB00A824DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		17EB024B2D578DBB00A824DC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17EB02482D578DBB00A824DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		17EB024D2D578DBB00A824DC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17EB02482D578DBB00A824DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 17EB020D2D578D3200A824DC /* Project object */;
+}
