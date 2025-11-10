@@ -66,3 +66,14 @@ User data and reading history are securely stored in **Firebase Firestore**. The
 3. In the code, replace the placeholder API key constant:
     private let apiKey = "YOUR_OPENAI_API_KEY"
 4. Run the app on an iOS simulator or physical device.
+
+### APP Screenshots (Turkish Version)
+
+<img width="347" height="674" alt="Screenshot 2025-11-10 at 18 34 09" src="https://github.com/user-attachments/assets/ea5775f2-e6a0-468b-a6fe-9977f11e63f5" />
+<img width="345" height="709" alt="Screenshot 2025-11-10 at 18 34 47" src="https://github.com/user-attachments/assets/a3153506-f4e4-4b29-aabd-04ed9b98fee8" />
+<img width="336" height="608" alt="Screenshot 2025-11-10 at 18 35 03" src="https://github.com/user-attachments/assets/25868d92-c206-4d57-b9d2-ef7bd7c4dd43" />
+<img width="352" height="675" alt="Screenshot 2025-1<img width="344" height="687" alt="Screenshot 2025-11-10 at 18 33 40" src="https://github.com/user-attachments/assets/b2dea11a-2fe7-4429-8bda-bab56f624d26" />
+<img width="349" height="702" alt="Screensh![Uploading Screenshot 2025-11-10 at 18.35.15.png…]()
+ot 2025-11-10 at 18 33 49" src="https://github.com/user-attachments/assets/42a7f393-2c6b-4f47-9e5b-b145e1cb278e" />
+<img width="352" height="687" alt="Screenshot 2025-11-10 at 18 33 29" src="https://github.com/user-attachments/assets/81ad6c4f-28d8-4e7d-acc2-e21bce92a5fe" />
+
